@@ -1,6 +1,6 @@
 # Google Cloud Function Fixed Width File Streaming into BQ
 
-This is a Google Cloud Function that processes tens of thousands of tiny fixed width files and performs streaming inserts into BQ.
+This is a Google Cloud Function that processes tens of thousands of tiny fixed width files and performs streaming inserts into Google BigQuery.
 
 The function is triggered by each file finalize/create in a Google Cloud Storage bucket.
 
