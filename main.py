@@ -4,7 +4,7 @@ import numpy as np
 import gcsfs
 
 # [START function]
-def loadtraffictobq(data, context):
+def streamtobq(data, context):
 
     print('Event ID: {}'.format(context.event_id))
     print('Event type: {}'.format(context.event_type))
