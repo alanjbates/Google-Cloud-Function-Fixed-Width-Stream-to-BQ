@@ -1,0 +1,4 @@
+google-cloud-bigquery
+pandas
+numpy
+gcsfs
