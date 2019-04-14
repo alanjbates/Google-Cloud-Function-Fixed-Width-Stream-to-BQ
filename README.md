@@ -4,7 +4,7 @@ This is a Google Cloud Function that processes tens of thousands of tiny fixed w
 
 The function is triggered by each file finalize/create in a Google Cloud Storage bucket.
 
-Due to the tiny size of the file (less than 10KB) we are able to use a Google Cloud Functions to do all of the processing required without the need for more scalable data processing tools like dataflow or dataproc.
+Due to the tiny size of the file (less than 10KB) we are able to use a Google Cloud Functions to do all of the processing required without the need for compute resource intensive data processing tools like dataflow or dataproc.
 
 When a file lands in the GCS bucket, the function reads the file into memory, parses the file by position into columns, adds a new DataDate column, performs various data type and format cleanup, converts the dataframe to numpy array, and then loads the records into BigQuery via streaming inserts.
 
