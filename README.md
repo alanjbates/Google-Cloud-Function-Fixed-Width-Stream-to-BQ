@@ -10,4 +10,4 @@ When a file lands in the GCS bucket, the function reads the file into memory, pa
 
 I have used this simple automated serverless data pipeline to process 200,000+ files per day into BQ without issue to support  real time operational dashboards.
 
-![Image of Architecture](https://raw.githubusercontent.com/alanjbates/Google-Cloud-Function-Fixed-Width-Stream-to-BQ/master/fixed_width_streaming_to_bq.draw.io.draw.io.png)
+![Image of Architecture](https://raw.githubusercontent.com/alanjbates/Google-Cloud-Function-Fixed-Width-Stream-to-BQ/master/fixed_width_streaming_to_bq.draw.io.png)
